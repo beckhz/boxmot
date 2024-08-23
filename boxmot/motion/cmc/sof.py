@@ -167,7 +167,7 @@ class SOF(BaseCMC):
 
         # store to next iteration
         self.prev_img = img.copy()
-        self.prevKeyPoints = next_keypoints.copy()
+        self.prev_keypoints = next_keypoints.copy()
 
         # handle downscale
         if self.scale < 1:
